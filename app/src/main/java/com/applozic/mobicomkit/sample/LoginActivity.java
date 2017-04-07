@@ -348,6 +348,9 @@ public class LoginActivity extends Activity implements ActivityCompat.OnRequestP
      */
     private void buildContactData() {
 
+        // No more random contacts
+
+        /*
         Context context = getApplicationContext();
         AppContactService appContactService = new AppContactService(context);
         // avoid each time update ....
@@ -401,6 +404,7 @@ public class LoginActivity extends Activity implements ActivityCompat.OnRequestP
 
             appContactService.addAll(contactList);
         }
+        */
     }
 
     private boolean isEmailValid(String email) {
